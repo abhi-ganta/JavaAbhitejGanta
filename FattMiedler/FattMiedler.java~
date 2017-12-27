@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class FattMiedler
+{
+  public static void main (String[] args)
+  {
+    String firstName;
+    String lastName;
+    Scanner scan= new Scanner (System.in);
+    System.out.println(" What's your first name?");
+    firstName= scan.nextString();
+    

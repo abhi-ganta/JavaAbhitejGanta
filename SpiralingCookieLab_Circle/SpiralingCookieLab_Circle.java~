@@ -1,0 +1,16 @@
+import java.util.*;
+import java.util.*;
+public class SpiralingCookieLab_Circle
+{
+  public static void main (String[] args)
+  {
+    double radius, area;
+    System.out.println("What is the radius of your circle in feet?");
+    radius= scan.nextInt;
+    area= (3.14*(Math.pow(radius,2)));
+    System.out.println("The radius of your circle is: " +area "feet squared");
+    
+           
+    
+    
+    

@@ -1,0 +1,180 @@
+public class Pokemon
+{
+ private String name;
+ private int healthPoints;
+ private int Level;
+ private int Attack;
+ private int Defense;
+ private int Speed;
+ private String Type1;
+ private String Type2;
+ private String Move1;
+ private String Move2;
+ private String Move3;
+ private String Move4;
+
+ public Pokemon()
+ {
+  name="Chikorita";
+  healthPoints=45;
+  Level=5;
+
+  Attack=49;
+  Defense=49;
+  Speed=45;
+
+  Type1="Grass";
+  Type2=null;
+
+  Move1="Tackle";
+  Move2=null;
+  Move3=null;
+  Move4=null;
+ }
+
+ public Pokemon(String nam, int hp, int lvl, String tpe1, String tpe2, int atk, int def, int spd, String mve1, String mve2, String mve3, String mve4)
+ {
+  name=nam;
+  healthPoints=hp;
+  Level=lvl;
+  Type1=tpe1;
+  Type2=tpe2;
+  Attack=atk;
+  Defense=def;
+  Speed=spd;
+  Move1=mve1;
+  Move2=mve2;
+  Move3=mve3;
+  Move4=mve4;
+
+ }
+//Name
+ public String getName()
+ {
+  return name;
+ }
+
+ public void setName(String nam)
+ {
+  name = nam;
+  return;
+ }
+//Type
+ public String getType1()
+ {
+  return Type1;
+ }
+
+ public void setType1(String tpe1)
+ {
+  Type1=tpe1;
+  return;
+ }
+
+ public String getType2()
+ {
+  return Type2;
+ }
+
+ public void setType2(String tpe2)
+ {
+  Type1=tpe2;
+  return;
+ }
+//HP
+ public int getHP()
+ {
+  return healthPoints;
+ }
+
+ public void setHP(int hp)
+ {
+  healthPoints = hp;
+  return;
+ }
+//Level
+ public int getLevel()
+ {
+  return Level;
+ }
+ public void setLevel(int lvl)
+ {
+  Level = lvl;
+  return;
+ }
+//Attack and Defense
+ public int getAtk()
+ {
+  return Attack;
+ }
+ public void setAtk(int atk)
+ {
+  Attack = atk;
+  return;
+ }
+
+ public int getDef()
+ {
+  return Level;
+ }
+ public void setDef(int def)
+ {
+  Defense = def;
+  return;
+ }
+
+ public int getSpeed()
+ {
+  return Level;
+ }
+ public void setSpeed(int spd)
+ {
+  Speed = spd;
+  return;
+ }
+//Moves
+ public String getMove1()
+ {
+  return Move1;
+ }
+
+ public void setMove1(String mve1)
+ {
+  Move1 = mve1;
+  return;
+ }
+
+ public String getMove2()
+ {
+  return Move2;
+ }
+
+ public void setMove2(String mve2)
+ {
+  Move2 = mve2;
+  return;
+ }
+
+ public String getMove3()
+ {
+  return Move3;
+ }
+
+ public void setMove3(String mve3)
+ {
+  Move3 = mve3;
+  return;
+ }
+
+ public String getMove4()
+ {
+  return Move4;
+ }
+
+ public void setMove4(String mve4)
+ {
+  Move4 = mve4;
+  return;
+ }
+
+} //close class

@@ -1,0 +1,32 @@
+/**************************************************************
+//File: PaintLab
+//
+//Purpose: Determine how much paint is needed to paint the walls
+//of a room given its length, width, and height
+//Date: September 4,2014
+//Author: Abhi Ganta
+//**************************************************************
+  import java. util.Scanner;
+  public class PaintLab
+  {
+    public static void main(String [] args)
+    {
+      final int COVERAGE = 350; //paint covers 350 sq ft/gal
+      double length, height, width;
+      double totalSqFt; // 2(LH)+ 2(WH)
+      double paintNeeded; //totalSqFt/COVERAGE
+      Scanner scan= new Scanner (System.in);
+      System.out.println("Enter length: ");
+      length= scan.nextDouble();
+      System.out.println("Enter width: ");
+      width= scan.nextDouble();
+      System.out.println("Enter height: ");
+      height= scan.nextDouble();
+      totalSqFt= (2*length*height)+(2*width*height);
+      paintNeeded= Math.ceil(totalSqFt/COVERAGE);
+      System.out.println("The Total Square Feet is: "+ totalSqFt);
+      System.out.println("Paint Needed: "+paintNeeded+" Gallons");
+      
+    }
+  }
+        

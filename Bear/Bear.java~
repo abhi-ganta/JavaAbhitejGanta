@@ -1,0 +1,28 @@
+public class Bear
+{
+  private String face, top, bottom;
+  public Bear(String s1, String s2, String s3)
+  {//This is a default constructor Constructors are
+   //instance variables. Bear had three instance variables.
+    face= s1;
+    top=s2;
+    botttom=s3;
+  }
+  public Bear()
+  {//default constructor
+    face= "happy";
+    top= "dress shirt with bowtie";
+    botttom= "khakis";
+  }
+  public String toString( )
+  {
+    
+}
+public static void main(String[] args)
+{
+  Bear b1= new Bear("happy", "dress shirt with bowtie", "khakis");
+  System.out.println(b1);
+  Bear b2= new Bear();
+  System.out.println(b2);
+ }
+}

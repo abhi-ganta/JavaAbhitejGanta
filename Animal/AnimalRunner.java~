@@ -1,0 +1,14 @@
+public class AnimalRunner
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Wally's World\n--------------------");
+    
+    Doge doge1 = new Doge("Spike","salad",true,true,"Doge");
+    System.out.println(doge1.toString());
+    Animal a1 = new Animal ("Batman", "nothing...I'm Batman", true, false);
+    System.out.println(a1.toString());
+    Kitty kat1 = new Kitty("Boo","Meow-Mix",true,true,"Meow");
+    System.out.println(kat1.toString());
+  }
+}

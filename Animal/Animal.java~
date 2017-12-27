@@ -1,0 +1,21 @@
+public class Animal
+{
+  public String name;
+  public String food;
+  public boolean poop;
+  public boolean isPet;
+  public final static string Z00_NAME = "Wally's World";
+  public Animal() {
+    this(""."",true,true);}
+}
+
+
+public Animal(String n, String f, boolean p, boolean isAPet)
+{
+  this.name = n;
+  this.food = f;
+  this.poop = p;
+  this.isPet = isAPet;
+}
+
+  

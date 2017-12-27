@@ -1,0 +1,13 @@
+  import java.util.Scanner;
+  import java.util.lang.*;
+  public class RandomNumberGame
+  {
+    public static void main (String[] args)
+    {
+      int guess, randomNum;
+      randomNum= (int)((Math.random()*10)+1);
+      Scanner scan= new Scanner(System.in);
+      System.out.println("What is your guess?");
+      
+    }
+  }

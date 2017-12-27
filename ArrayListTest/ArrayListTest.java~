@@ -1,0 +1,22 @@
+import java.util.*;
+public class ArrayListTest
+{
+  public static void main (String[] args)
+  {
+    ArrayList fun = new ArrayList();
+    fun.add("dance");
+    fun.add("NETFLIX");
+    fun.add("slumber party");
+    fun.add("car");
+    fun.add("Six Flags");
+    fun.add("coding");
+    System.out.println(fun);
+    fun.remove("coding");
+    System.out.println(fun);
+    System.out.println("Six Flags is at location: " +fun.indexOf("Six Flags"));
+    System.out.println("Location 3: " +fun.get(3));
+    System.out.println("The size of the array is: " +fun.size());
+  }
+}
+    
+    

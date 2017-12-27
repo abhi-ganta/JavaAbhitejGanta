@@ -1,0 +1,15 @@
+import java.util.*;
+public class LonghornPass
+{
+  public static void main(String [] args)
+  {
+    System.out.println(" What's your full name?");
+    String fName= scan.nexLine();
+    String tFirst, sLast, number, newName;
+    tFirst= indexOf(2,3);
+    sLast= indexOf(10,11);
+    number= _123!;
+    newName= (tFirst + sLast + number);
+    System.out.println("Your new password is:" +" "+ newName);
+  }
+}
